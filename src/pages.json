@@ -1,0 +1,174 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/preRegisterApply/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/avatar/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/info/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/info/edit",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/pwd/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/setting/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/help/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  }, {
+			"path": "pages/mine/about/index",
+			"style": {
+			  "navigationBarTitleText": "",
+			  "h5": {
+				  "titleNView": false
+			  }
+			}
+		  },
+		{
+			"path": "pages/myPreRegister/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/preRegisterApplyDetail/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/alarm/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	    ,{
+            "path" : "pages/r32store/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3c9cff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3c9cff",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/preRegisterApply/index",
+				"iconPath": "static/preRegisterApply.png",
+				"selectedIconPath": "static/preRegisterApply-current.png",
+				"text": "预登记申请"
+			},
+			{
+				"pagePath": "pages/myPreRegister/index",
+				"iconPath": "static/myPreRegister.png",
+				"selectedIconPath": "static/myPreRegister-current.png",
+				"text": "我的预登记"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/notify.png",
+				"selectedIconPath": "static/notify-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}
